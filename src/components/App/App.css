@@ -1,0 +1,21 @@
+.calculator-body {
+  /* border: 1px solid red; */
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  /* display: inline-block; */
+}
+
+.calculation-history {
+  /* border: 1px solid red; */
+  width: 300px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  /* display: inline-block; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
