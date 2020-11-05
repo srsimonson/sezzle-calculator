@@ -13,7 +13,7 @@ class App extends Component {
 
   componentDidMount() {
     this.getCalcHx();
-    setInterval(this.getCalcHx, 10000);
+    setInterval(this.getCalcHx, 1000);
   }
 
   getCalcHx = () => {
@@ -25,7 +25,7 @@ class App extends Component {
         calculationHistory: response.data
       })
     }).catch((error) => {
-      console.log('error with GET request', error);
+      console.log('GET error: ', error.response);
     })
   }
 
@@ -36,8 +36,8 @@ class App extends Component {
       data: newCalc
     }).then((response) => {
       this.getCalcHx();
-    }).catch ((err) => {
-      alert('ERROR with app.js POST: ', err)
+    }).catch ((error) => {
+      console.log('POST error: ', error.response)
     })
   }
 
