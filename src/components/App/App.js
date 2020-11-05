@@ -1,4 +1,3 @@
-// import logo from '../../logo.svg';
 import React, {Component} from 'react';
 import './App.css';
 import Calculator from '../Calculator/Calculator';
@@ -45,6 +44,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="calculator-body">
+            <h3>Steve Simonson - Sezzle Calculator</h3>
             <Calculator submitCalc={this.submitCalc}/>
         </div>
         <div className="calculation-history">

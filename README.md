@@ -2,8 +2,6 @@
 
 This app can be viewed at: `https://thawing-shore-92368.herokuapp.com/`
 
-* Known issue with deployment: app works and communicates with database on localhost, but kicks 500 internal service error while trying to retrieve calculation history when deployed to heroku.
-
 ## Setup
 
 To run this application on your machine:
@@ -37,4 +35,4 @@ The app must be hosted and deployed to be publicly accessible to engineers at Se
 
 ## Screenshot
 
-![Screenshot](public/Calculator.png "Screenshot")# sezzle-calculator
+![Screenshot](public/Calculator.png "Screenshot") #sezzle-calculator
