@@ -13,7 +13,7 @@ class App extends Component {
 
   componentDidMount() {
     this.getCalcHx();
-    setInterval(this.getCalcHx, 1000);
+    setInterval(this.getCalcHx, 10000);
   }
 
   getCalcHx = () => {
