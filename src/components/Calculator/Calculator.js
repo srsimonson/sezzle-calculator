@@ -136,21 +136,15 @@ class Calculator extends Component {
                     <button className='operator' value='/' onClick={this.operatorClicked}>/</button>
                 </div>
                 <div className="button-row">
-                    <button value='7' onClick={this.numberClicked}>7</button>
-                    <button value='8' onClick={this.numberClicked}>8</button>
-                    <button value='9' onClick={this.numberClicked}>9</button>
+                    {['7', '8', '9'].map(e => <button value={e} onClick={this.numberClicked}>{e}</button>)}
                     <button className='operator' value='*' onClick={this.operatorClicked}>x</button>
                 </div>
                 <div className="button-row">
-                    <button value='4' onClick={this.numberClicked}>4</button>
-                    <button value='5' onClick={this.numberClicked}>5</button>
-                    <button value='6' onClick={this.numberClicked}>6</button>
+                    {['4', '5', '6'].map(e => <button value={e} onClick={this.numberClicked}>{e}</button>)}
                     <button className='operator' value='-' onClick={this.operatorClicked}>-</button>
                 </div>
                 <div className="button-row">
-                    <button value='1' onClick={this.numberClicked}>1</button>
-                    <button value='2' onClick={this.numberClicked}>2</button>
-                    <button value='3' onClick={this.numberClicked}>3</button>
+                    {['1', '2', '3'].map(e => <button value={e} onClick={this.numberClicked}>{e}</button>)}
                     <button className='operator' value='+' onClick={this.operatorClicked} >+</button>
                 </div>
                 <div className="button-row">
