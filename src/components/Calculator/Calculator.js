@@ -136,15 +136,15 @@ class Calculator extends Component {
                     <button className='operator' value='/' onClick={this.operatorClicked}>/</button>
                 </div>
                 <div className="button-row">
-                    {['7', '8', '9'].map(e => <button value={e} onClick={this.numberClicked}>{e}</button>)}
+                    {['7', '8', '9'].map(n => <button value={n} onClick={this.numberClicked}>{n}</button>)}
                     <button className='operator' value='*' onClick={this.operatorClicked}>x</button>
                 </div>
                 <div className="button-row">
-                    {['4', '5', '6'].map(e => <button value={e} onClick={this.numberClicked}>{e}</button>)}
+                    {['4', '5', '6'].map(n => <button value={n} onClick={this.numberClicked}>{n}</button>)}
                     <button className='operator' value='-' onClick={this.operatorClicked}>-</button>
                 </div>
                 <div className="button-row">
-                    {['1', '2', '3'].map(e => <button value={e} onClick={this.numberClicked}>{e}</button>)}
+                    {['1', '2', '3'].map(n => <button value={n} onClick={this.numberClicked}>{n}</button>)}
                     <button className='operator' value='+' onClick={this.operatorClicked} >+</button>
                 </div>
                 <div className="button-row">
